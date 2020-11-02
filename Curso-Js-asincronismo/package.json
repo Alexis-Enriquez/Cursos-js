@@ -1,0 +1,20 @@
+{
+  "name": "curso-de-asincronismo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/01-callback/index.js",
+    "callback:challenge-multi": "node src/01-callback/multiplesPeticiones.js",
+    "promise": "node src/02-promise/index.js",
+    "promise:challenge" : "node src/02-promise/challenge-con-promises.js",
+    "async" : "node src/03-async_await/index.js",
+    "async:challenge" : "node src/03-async_await/challenge.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
